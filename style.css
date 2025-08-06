@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  @import url("https://fonts.googleapis.com/css2?family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap");
+}
+body {
+  font-family: "Zain", sans-serif;
+  background-color: #ffffff;
+  color: #1e3950;
+  line-height: 1.6;
+}
+
+h1,
+h2,
+h3 {
+  font-family: Georgia, serif;
+  color: #243f5b;
+  letter-spacing: 1px;
+}
+
+/* header */
+.hero {
+  background-color: #8da0ad;
+  color: rgb(29, 52, 81);
+  padding: 100px 40px;
+  text-align: center;
+  position: relative;
+}
+.top-left {
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  font-size: 16px;
+  font-family: "Jua", sans-serif;
+  color: #ffffff;
+}
+
+.hero-content h1 {
+  font-family: "Emblema One", system-ui;
+  color: antiquewhite;
+  font-size: 70px;
+  margin-bottom: 10px;
+}
+
+.hero-content p {
+  font-family: "Jua", sans-serif;
+  font-size: 20px;
+  color: #f0f0f0;
+}
+
+/* features */
+.features-intro {
+  font-size: 18px;
+  max-width: 800px;
+  margin: 0 auto 50px;
+  color: #555;
+}
