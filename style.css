@@ -5,11 +5,12 @@
 }
 body {
   font-family: "Zain", sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   font-style: normal;
   background-color: #ffffff;
   color: #1e3950;
   line-height: 1.6;
+  font-size: 20px;
 }
 
 h1,
@@ -64,16 +65,67 @@ h3 {
 }
 
 .feature-card img {
-  background-color: #8da0ad;
+  background-color: antiquewhite;
   padding: 10px;
   width: 80%;
 }
 
 .feature-card {
-  font-size: 20px;
+  font-size: 18px;
   text-align: center;
 }
 
 .feature-card a {
   font-size: 15px;
+  font-family: "Zain", sans-serif;
+  color: rgb(238, 142, 135);
+}
+
+/* Analysis Section */
+.text {
+  margin: 40px;
+  margin-left: 60px;
+  margin-right: 60px;
+  color: rgb(55, 68, 102);
+}
+
+/* Mapping */
+.analysis-section.mapping {
+  background-color: #ecc8d1;
+  padding: 10px 0px;
+}
+.analysis-section.mapping img {
+  align-items: center;
+  margin: 0px 60px;
+  width: 45%;
+  height: auto;
+}
+
+/* Feedback */
+.analysis-section.feedback {
+  background-color: antiquewhite;
+  padding: 10px 0px;
+}
+.analysis-section.feedback img {
+  align-items: center;
+  margin: 0px 60px;
+  width: 45%;
+  height: auto;
+}
+
+.reflection {
+  margin: 60px;
+  margin-top: 40px;
+  color: rgb(55, 68, 102);
+}
+.footer {
+  background-color: #8da0ad;
+  padding: 5px 10px;
+  color: antiquewhite;
+}
+.footer-content {
+  margin: 60px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
 }
